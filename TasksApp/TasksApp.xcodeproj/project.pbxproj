@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1C7B812A72AE7D0075B2C1 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C7B802A72AE7D0075B2C1 /* DateView.swift */; };
+		0A1C7B832A72DD0C0075B2C1 /* AddTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C7B822A72DD0C0075B2C1 /* AddTaskRequest.swift */; };
+		0A1C7B852A72F2940075B2C1 /* AddTaskResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C7B842A72F2940075B2C1 /* AddTaskResponse.swift */; };
+		0A1C7B872A730CF20075B2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C7B862A730CF20075B2C1 /* AppDelegate.swift */; };
+		0A1C7B892A7320130075B2C1 /* AddTaskValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C7B882A7320130075B2C1 /* AddTaskValidation.swift */; };
+		0A256C202A738A9800FC8CF4 /* ResponseDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A256C1E2A7389E000FC8CF4 /* ResponseDecoderTests.swift */; };
+		0A256C222A738BAD00FC8CF4 /* NetworkUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A256C212A738BAD00FC8CF4 /* NetworkUtilityTests.swift */; };
+		0A843ACD2A726B040081826B /* MonthAndYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A843ACC2A726B040081826B /* MonthAndYearPicker.swift */; };
+		0A843ACE2A726B040081826B /* MonthAndYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A843ACC2A726B040081826B /* MonthAndYearPicker.swift */; };
+		0A843ACF2A726B040081826B /* MonthAndYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A843ACC2A726B040081826B /* MonthAndYearPicker.swift */; };
+		0A843AD12A726B8A0081826B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A843AD02A726B8A0081826B /* Extensions.swift */; };
+		0A843AD22A726B8A0081826B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A843AD02A726B8A0081826B /* Extensions.swift */; };
+		0A843AD32A726B8A0081826B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A843AD02A726B8A0081826B /* Extensions.swift */; };
+		0A892AEC2A711FEE0051E9A7 /* TasksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892AEB2A711FEE0051E9A7 /* TasksAppApp.swift */; };
+		0A892AEE2A711FEE0051E9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892AED2A711FEE0051E9A7 /* ContentView.swift */; };
+		0A892AF02A711FF30051E9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A892AEF2A711FF30051E9A7 /* Assets.xcassets */; };
+		0A892AF42A711FF30051E9A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A892AF32A711FF30051E9A7 /* Preview Assets.xcassets */; };
+		0A892AFE2A711FF40051E9A7 /* TasksAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892AFD2A711FF40051E9A7 /* TasksAppTests.swift */; };
+		0A892B082A711FF40051E9A7 /* TasksAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B072A711FF40051E9A7 /* TasksAppUITests.swift */; };
+		0A892B0A2A711FF40051E9A7 /* TasksAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B092A711FF40051E9A7 /* TasksAppUITestsLaunchTests.swift */; };
+		0A892B172A713ACF0051E9A7 /* DIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B162A713ACF0051E9A7 /* DIC.swift */; };
+		0A892B1A2A713B0B0051E9A7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B192A713B0B0051E9A7 /* Reachability.swift */; };
+		0A892B1E2A713B490051E9A7 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B1D2A713B490051E9A7 /* NetworkUtility.swift */; };
+		0A892B1F2A713B490051E9A7 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B1D2A713B490051E9A7 /* NetworkUtility.swift */; };
+		0A892B202A713B490051E9A7 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B1D2A713B490051E9A7 /* NetworkUtility.swift */; };
+		0A892B222A713B5D0051E9A7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B192A713B0B0051E9A7 /* Reachability.swift */; };
+		0A892B232A713B5E0051E9A7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B192A713B0B0051E9A7 /* Reachability.swift */; };
+		0A892B242A713B610051E9A7 /* DIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B162A713ACF0051E9A7 /* DIC.swift */; };
+		0A892B252A713B620051E9A7 /* DIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B162A713ACF0051E9A7 /* DIC.swift */; };
+		0A892B272A713BC50051E9A7 /* ResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B262A713BC50051E9A7 /* ResponseDecoder.swift */; };
+		0A892B282A713BC50051E9A7 /* ResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B262A713BC50051E9A7 /* ResponseDecoder.swift */; };
+		0A892B292A713BC50051E9A7 /* ResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B262A713BC50051E9A7 /* ResponseDecoder.swift */; };
+		0A892B512A7144860051E9A7 /* CommonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B502A7144860051E9A7 /* CommonError.swift */; };
+		0A892B522A7144860051E9A7 /* CommonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B502A7144860051E9A7 /* CommonError.swift */; };
+		0A892B532A7144860051E9A7 /* CommonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B502A7144860051E9A7 /* CommonError.swift */; };
+		0A892B552A7144A00051E9A7 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B542A7144A00051E9A7 /* ParseError.swift */; };
+		0A892B562A7144A00051E9A7 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B542A7144A00051E9A7 /* ParseError.swift */; };
+		0A892B572A7144A00051E9A7 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B542A7144A00051E9A7 /* ParseError.swift */; };
+		0A892B592A7144B90051E9A7 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B582A7144B90051E9A7 /* HttpMethod.swift */; };
+		0A892B5A2A7144B90051E9A7 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B582A7144B90051E9A7 /* HttpMethod.swift */; };
+		0A892B5B2A7144B90051E9A7 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B582A7144B90051E9A7 /* HttpMethod.swift */; };
+		0A892B5D2A7144CD0051E9A7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B5C2A7144CD0051E9A7 /* NetworkRequest.swift */; };
+		0A892B5E2A7144CD0051E9A7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B5C2A7144CD0051E9A7 /* NetworkRequest.swift */; };
+		0A892B5F2A7144CD0051E9A7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B5C2A7144CD0051E9A7 /* NetworkRequest.swift */; };
+		0A892B612A7144EC0051E9A7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B602A7144EC0051E9A7 /* NetworkError.swift */; };
+		0A892B622A7144EC0051E9A7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B602A7144EC0051E9A7 /* NetworkError.swift */; };
+		0A892B632A7144EC0051E9A7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B602A7144EC0051E9A7 /* NetworkError.swift */; };
+		0A892B672A71454F0051E9A7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B662A71454E0051E9A7 /* Constant.swift */; };
+		0A892B682A71454F0051E9A7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B662A71454E0051E9A7 /* Constant.swift */; };
+		0A892B692A71454F0051E9A7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B662A71454E0051E9A7 /* Constant.swift */; };
+		0A892B6C2A7151BA0051E9A7 /* TaskViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B6B2A7151BA0051E9A7 /* TaskViewModels.swift */; };
+		0A892B6D2A7151BA0051E9A7 /* TaskViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B6B2A7151BA0051E9A7 /* TaskViewModels.swift */; };
+		0A892B6E2A7151BA0051E9A7 /* TaskViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B6B2A7151BA0051E9A7 /* TaskViewModels.swift */; };
+		0A892B702A7152610051E9A7 /* GetTasksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B6F2A7152610051E9A7 /* GetTasksResponse.swift */; };
+		0A892B712A7152610051E9A7 /* GetTasksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B6F2A7152610051E9A7 /* GetTasksResponse.swift */; };
+		0A892B722A7152610051E9A7 /* GetTasksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B6F2A7152610051E9A7 /* GetTasksResponse.swift */; };
+		0A892B742A7175A50051E9A7 /* GetTasksRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B732A7175A50051E9A7 /* GetTasksRequest.swift */; };
+		0A892B752A7175A50051E9A7 /* GetTasksRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B732A7175A50051E9A7 /* GetTasksRequest.swift */; };
+		0A892B762A7175A50051E9A7 /* GetTasksRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B732A7175A50051E9A7 /* GetTasksRequest.swift */; };
+		0A892B792A718E850051E9A7 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B782A718E850051E9A7 /* TaskView.swift */; };
+		0A892B7A2A718E850051E9A7 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B782A718E850051E9A7 /* TaskView.swift */; };
+		0A892B7B2A718E850051E9A7 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B782A718E850051E9A7 /* TaskView.swift */; };
+		0A892B7D2A71AAE40051E9A7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B7C2A71AAE40051E9A7 /* AddTaskView.swift */; };
+		0A892B7E2A71AAE40051E9A7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B7C2A71AAE40051E9A7 /* AddTaskView.swift */; };
+		0A892B7F2A71AAE40051E9A7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B7C2A71AAE40051E9A7 /* AddTaskView.swift */; };
+		0A892B812A71AB5B0051E9A7 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B802A71AB5B0051E9A7 /* CustomDatePicker.swift */; };
+		0A892B822A71AB5B0051E9A7 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B802A71AB5B0051E9A7 /* CustomDatePicker.swift */; };
+		0A892B832A71AB5B0051E9A7 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B802A71AB5B0051E9A7 /* CustomDatePicker.swift */; };
+		0A892B892A71B0990051E9A7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B882A71B0990051E9A7 /* DateValue.swift */; };
+		0A892B8A2A71B0990051E9A7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B882A71B0990051E9A7 /* DateValue.swift */; };
+		0A892B8B2A71B0990051E9A7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A892B882A71B0990051E9A7 /* DateValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A892AFA2A711FF40051E9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A892AE02A711FEE0051E9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A892AE72A711FEE0051E9A7;
+			remoteInfo = TasksApp;
+		};
+		0A892B042A711FF40051E9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A892AE02A711FEE0051E9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A892AE72A711FEE0051E9A7;
+			remoteInfo = TasksApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1C7B802A72AE7D0075B2C1 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		0A1C7B822A72DD0C0075B2C1 /* AddTaskRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskRequest.swift; sourceTree = "<group>"; };
+		0A1C7B842A72F2940075B2C1 /* AddTaskResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskResponse.swift; sourceTree = "<group>"; };
+		0A1C7B862A730CF20075B2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A1C7B882A7320130075B2C1 /* AddTaskValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskValidation.swift; sourceTree = "<group>"; };
+		0A256C1E2A7389E000FC8CF4 /* ResponseDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDecoderTests.swift; sourceTree = "<group>"; };
+		0A256C212A738BAD00FC8CF4 /* NetworkUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtilityTests.swift; sourceTree = "<group>"; };
+		0A843ACC2A726B040081826B /* MonthAndYearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearPicker.swift; sourceTree = "<group>"; };
+		0A843AD02A726B8A0081826B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0A892AE82A711FEE0051E9A7 /* TasksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A892AEB2A711FEE0051E9A7 /* TasksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAppApp.swift; sourceTree = "<group>"; };
+		0A892AED2A711FEE0051E9A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A892AEF2A711FF30051E9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A892AF12A711FF30051E9A7 /* TasksApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TasksApp.entitlements; sourceTree = "<group>"; };
+		0A892AF32A711FF30051E9A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A892AF92A711FF40051E9A7 /* TasksAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A892AFD2A711FF40051E9A7 /* TasksAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAppTests.swift; sourceTree = "<group>"; };
+		0A892B032A711FF40051E9A7 /* TasksAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A892B072A711FF40051E9A7 /* TasksAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAppUITests.swift; sourceTree = "<group>"; };
+		0A892B092A711FF40051E9A7 /* TasksAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A892B162A713ACF0051E9A7 /* DIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIC.swift; sourceTree = "<group>"; };
+		0A892B192A713B0B0051E9A7 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		0A892B1D2A713B490051E9A7 /* NetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
+		0A892B262A713BC50051E9A7 /* ResponseDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDecoder.swift; sourceTree = "<group>"; };
+		0A892B502A7144860051E9A7 /* CommonError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonError.swift; sourceTree = "<group>"; };
+		0A892B542A7144A00051E9A7 /* ParseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
+		0A892B582A7144B90051E9A7 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		0A892B5C2A7144CD0051E9A7 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		0A892B602A7144EC0051E9A7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0A892B662A71454E0051E9A7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0A892B6B2A7151BA0051E9A7 /* TaskViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModels.swift; sourceTree = "<group>"; };
+		0A892B6F2A7152610051E9A7 /* GetTasksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTasksResponse.swift; sourceTree = "<group>"; };
+		0A892B732A7175A50051E9A7 /* GetTasksRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTasksRequest.swift; sourceTree = "<group>"; };
+		0A892B772A717CC90051E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0A892B782A718E850051E9A7 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		0A892B7C2A71AAE40051E9A7 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		0A892B802A71AB5B0051E9A7 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		0A892B882A71B0990051E9A7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A892AE52A711FEE0051E9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A892AF62A711FF40051E9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A892B002A711FF40051E9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A892ADF2A711FEE0051E9A7 = {
+			isa = PBXGroup;
+			children = (
+				0A892AEA2A711FEE0051E9A7 /* TasksApp */,
+				0A892AFC2A711FF40051E9A7 /* TasksAppTests */,
+				0A892B062A711FF40051E9A7 /* TasksAppUITests */,
+				0A892AE92A711FEE0051E9A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A892AE92A711FEE0051E9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A892AE82A711FEE0051E9A7 /* TasksApp.app */,
+				0A892AF92A711FF40051E9A7 /* TasksAppTests.xctest */,
+				0A892B032A711FF40051E9A7 /* TasksAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A892AEA2A711FEE0051E9A7 /* TasksApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B772A717CC90051E9A7 /* Info.plist */,
+				0A892B3C2A713C290051E9A7 /* Models */,
+				0A892B3D2A713C390051E9A7 /* Views */,
+				0A892B652A71452E0051E9A7 /* ViewModels */,
+				0A892B182A713ADC0051E9A7 /* Utilities */,
+				0A892B6A2A71455C0051E9A7 /* Common */,
+				0A892AEB2A711FEE0051E9A7 /* TasksAppApp.swift */,
+				0A1C7B862A730CF20075B2C1 /* AppDelegate.swift */,
+				0A892AEF2A711FF30051E9A7 /* Assets.xcassets */,
+				0A892AF12A711FF30051E9A7 /* TasksApp.entitlements */,
+				0A892AF22A711FF30051E9A7 /* Preview Content */,
+			);
+			path = TasksApp;
+			sourceTree = "<group>";
+		};
+		0A892AF22A711FF30051E9A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A892AF32A711FF30051E9A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A892AFC2A711FF40051E9A7 /* TasksAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A892AFD2A711FF40051E9A7 /* TasksAppTests.swift */,
+				0A256C1E2A7389E000FC8CF4 /* ResponseDecoderTests.swift */,
+				0A256C212A738BAD00FC8CF4 /* NetworkUtilityTests.swift */,
+			);
+			path = TasksAppTests;
+			sourceTree = "<group>";
+		};
+		0A892B062A711FF40051E9A7 /* TasksAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B072A711FF40051E9A7 /* TasksAppUITests.swift */,
+				0A892B092A711FF40051E9A7 /* TasksAppUITestsLaunchTests.swift */,
+			);
+			path = TasksAppUITests;
+			sourceTree = "<group>";
+		};
+		0A892B182A713ADC0051E9A7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B162A713ACF0051E9A7 /* DIC.swift */,
+				0A892B192A713B0B0051E9A7 /* Reachability.swift */,
+				0A892B1D2A713B490051E9A7 /* NetworkUtility.swift */,
+				0A892B262A713BC50051E9A7 /* ResponseDecoder.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0A892B3C2A713C290051E9A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B502A7144860051E9A7 /* CommonError.swift */,
+				0A892B642A7144FB0051E9A7 /* Utility */,
+				0A892B732A7175A50051E9A7 /* GetTasksRequest.swift */,
+				0A892B6F2A7152610051E9A7 /* GetTasksResponse.swift */,
+				0A892B882A71B0990051E9A7 /* DateValue.swift */,
+				0A1C7B822A72DD0C0075B2C1 /* AddTaskRequest.swift */,
+				0A1C7B842A72F2940075B2C1 /* AddTaskResponse.swift */,
+				0A1C7B882A7320130075B2C1 /* AddTaskValidation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A892B3D2A713C390051E9A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A892AED2A711FEE0051E9A7 /* ContentView.swift */,
+				0A892B782A718E850051E9A7 /* TaskView.swift */,
+				0A892B7C2A71AAE40051E9A7 /* AddTaskView.swift */,
+				0A892B802A71AB5B0051E9A7 /* CustomDatePicker.swift */,
+				0A843ACC2A726B040081826B /* MonthAndYearPicker.swift */,
+				0A1C7B802A72AE7D0075B2C1 /* DateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A892B642A7144FB0051E9A7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B542A7144A00051E9A7 /* ParseError.swift */,
+				0A892B582A7144B90051E9A7 /* HttpMethod.swift */,
+				0A892B5C2A7144CD0051E9A7 /* NetworkRequest.swift */,
+				0A892B602A7144EC0051E9A7 /* NetworkError.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0A892B652A71452E0051E9A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B6B2A7151BA0051E9A7 /* TaskViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0A892B6A2A71455C0051E9A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0A892B662A71454E0051E9A7 /* Constant.swift */,
+				0A843AD02A726B8A0081826B /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A892AE72A711FEE0051E9A7 /* TasksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A892B0D2A711FF40051E9A7 /* Build configuration list for PBXNativeTarget "TasksApp" */;
+			buildPhases = (
+				0A892AE42A711FEE0051E9A7 /* Sources */,
+				0A892AE52A711FEE0051E9A7 /* Frameworks */,
+				0A892AE62A711FEE0051E9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasksApp;
+			productName = TasksApp;
+			productReference = 0A892AE82A711FEE0051E9A7 /* TasksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A892AF82A711FF40051E9A7 /* TasksAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A892B102A711FF40051E9A7 /* Build configuration list for PBXNativeTarget "TasksAppTests" */;
+			buildPhases = (
+				0A892AF52A711FF40051E9A7 /* Sources */,
+				0A892AF62A711FF40051E9A7 /* Frameworks */,
+				0A892AF72A711FF40051E9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A892AFB2A711FF40051E9A7 /* PBXTargetDependency */,
+			);
+			name = TasksAppTests;
+			productName = TasksAppTests;
+			productReference = 0A892AF92A711FF40051E9A7 /* TasksAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A892B022A711FF40051E9A7 /* TasksAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A892B132A711FF40051E9A7 /* Build configuration list for PBXNativeTarget "TasksAppUITests" */;
+			buildPhases = (
+				0A892AFF2A711FF40051E9A7 /* Sources */,
+				0A892B002A711FF40051E9A7 /* Frameworks */,
+				0A892B012A711FF40051E9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A892B052A711FF40051E9A7 /* PBXTargetDependency */,
+			);
+			name = TasksAppUITests;
+			productName = TasksAppUITests;
+			productReference = 0A892B032A711FF40051E9A7 /* TasksAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A892AE02A711FEE0051E9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0A892AE72A711FEE0051E9A7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0A892AF82A711FF40051E9A7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0A892AE72A711FEE0051E9A7;
+					};
+					0A892B022A711FF40051E9A7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0A892AE72A711FEE0051E9A7;
+					};
+				};
+			};
+			buildConfigurationList = 0A892AE32A711FEE0051E9A7 /* Build configuration list for PBXProject "TasksApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A892ADF2A711FEE0051E9A7;
+			productRefGroup = 0A892AE92A711FEE0051E9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A892AE72A711FEE0051E9A7 /* TasksApp */,
+				0A892AF82A711FF40051E9A7 /* TasksAppTests */,
+				0A892B022A711FF40051E9A7 /* TasksAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A892AE62A711FEE0051E9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A892AF42A711FF30051E9A7 /* Preview Assets.xcassets in Resources */,
+				0A892AF02A711FF30051E9A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A892AF72A711FF40051E9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A892B012A711FF40051E9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A892AE42A711FEE0051E9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A892B552A7144A00051E9A7 /* ParseError.swift in Sources */,
+				0A892B172A713ACF0051E9A7 /* DIC.swift in Sources */,
+				0A892B512A7144860051E9A7 /* CommonError.swift in Sources */,
+				0A1C7B852A72F2940075B2C1 /* AddTaskResponse.swift in Sources */,
+				0A892B272A713BC50051E9A7 /* ResponseDecoder.swift in Sources */,
+				0A892B5D2A7144CD0051E9A7 /* NetworkRequest.swift in Sources */,
+				0A892B592A7144B90051E9A7 /* HttpMethod.swift in Sources */,
+				0A892B702A7152610051E9A7 /* GetTasksResponse.swift in Sources */,
+				0A843ACD2A726B040081826B /* MonthAndYearPicker.swift in Sources */,
+				0A892B792A718E850051E9A7 /* TaskView.swift in Sources */,
+				0A892B892A71B0990051E9A7 /* DateValue.swift in Sources */,
+				0A892B812A71AB5B0051E9A7 /* CustomDatePicker.swift in Sources */,
+				0A892B6C2A7151BA0051E9A7 /* TaskViewModels.swift in Sources */,
+				0A1C7B872A730CF20075B2C1 /* AppDelegate.swift in Sources */,
+				0A892AEE2A711FEE0051E9A7 /* ContentView.swift in Sources */,
+				0A843AD12A726B8A0081826B /* Extensions.swift in Sources */,
+				0A1C7B812A72AE7D0075B2C1 /* DateView.swift in Sources */,
+				0A892B742A7175A50051E9A7 /* GetTasksRequest.swift in Sources */,
+				0A892B1A2A713B0B0051E9A7 /* Reachability.swift in Sources */,
+				0A1C7B832A72DD0C0075B2C1 /* AddTaskRequest.swift in Sources */,
+				0A892AEC2A711FEE0051E9A7 /* TasksAppApp.swift in Sources */,
+				0A1C7B892A7320130075B2C1 /* AddTaskValidation.swift in Sources */,
+				0A892B7D2A71AAE40051E9A7 /* AddTaskView.swift in Sources */,
+				0A892B612A7144EC0051E9A7 /* NetworkError.swift in Sources */,
+				0A892B1E2A713B490051E9A7 /* NetworkUtility.swift in Sources */,
+				0A892B672A71454F0051E9A7 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A892AF52A711FF40051E9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A892B242A713B610051E9A7 /* DIC.swift in Sources */,
+				0A892B752A7175A50051E9A7 /* GetTasksRequest.swift in Sources */,
+				0A892B6D2A7151BA0051E9A7 /* TaskViewModels.swift in Sources */,
+				0A892B7E2A71AAE40051E9A7 /* AddTaskView.swift in Sources */,
+				0A892B7A2A718E850051E9A7 /* TaskView.swift in Sources */,
+				0A892B712A7152610051E9A7 /* GetTasksResponse.swift in Sources */,
+				0A892B562A7144A00051E9A7 /* ParseError.swift in Sources */,
+				0A892B522A7144860051E9A7 /* CommonError.swift in Sources */,
+				0A892AFE2A711FF40051E9A7 /* TasksAppTests.swift in Sources */,
+				0A892B822A71AB5B0051E9A7 /* CustomDatePicker.swift in Sources */,
+				0A892B5A2A7144B90051E9A7 /* HttpMethod.swift in Sources */,
+				0A256C202A738A9800FC8CF4 /* ResponseDecoderTests.swift in Sources */,
+				0A843ACE2A726B040081826B /* MonthAndYearPicker.swift in Sources */,
+				0A256C222A738BAD00FC8CF4 /* NetworkUtilityTests.swift in Sources */,
+				0A892B282A713BC50051E9A7 /* ResponseDecoder.swift in Sources */,
+				0A892B1F2A713B490051E9A7 /* NetworkUtility.swift in Sources */,
+				0A892B5E2A7144CD0051E9A7 /* NetworkRequest.swift in Sources */,
+				0A843AD22A726B8A0081826B /* Extensions.swift in Sources */,
+				0A892B682A71454F0051E9A7 /* Constant.swift in Sources */,
+				0A892B8A2A71B0990051E9A7 /* DateValue.swift in Sources */,
+				0A892B222A713B5D0051E9A7 /* Reachability.swift in Sources */,
+				0A892B622A7144EC0051E9A7 /* NetworkError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A892AFF2A711FF40051E9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A892B572A7144A00051E9A7 /* ParseError.swift in Sources */,
+				0A892B0A2A711FF40051E9A7 /* TasksAppUITestsLaunchTests.swift in Sources */,
+				0A892B532A7144860051E9A7 /* CommonError.swift in Sources */,
+				0A892B292A713BC50051E9A7 /* ResponseDecoder.swift in Sources */,
+				0A892B5F2A7144CD0051E9A7 /* NetworkRequest.swift in Sources */,
+				0A892B5B2A7144B90051E9A7 /* HttpMethod.swift in Sources */,
+				0A892B722A7152610051E9A7 /* GetTasksResponse.swift in Sources */,
+				0A843ACF2A726B040081826B /* MonthAndYearPicker.swift in Sources */,
+				0A892B7B2A718E850051E9A7 /* TaskView.swift in Sources */,
+				0A892B8B2A71B0990051E9A7 /* DateValue.swift in Sources */,
+				0A892B832A71AB5B0051E9A7 /* CustomDatePicker.swift in Sources */,
+				0A892B6E2A7151BA0051E9A7 /* TaskViewModels.swift in Sources */,
+				0A892B202A713B490051E9A7 /* NetworkUtility.swift in Sources */,
+				0A843AD32A726B8A0081826B /* Extensions.swift in Sources */,
+				0A892B762A7175A50051E9A7 /* GetTasksRequest.swift in Sources */,
+				0A892B232A713B5E0051E9A7 /* Reachability.swift in Sources */,
+				0A892B082A711FF40051E9A7 /* TasksAppUITests.swift in Sources */,
+				0A892B7F2A71AAE40051E9A7 /* AddTaskView.swift in Sources */,
+				0A892B632A7144EC0051E9A7 /* NetworkError.swift in Sources */,
+				0A892B252A713B620051E9A7 /* DIC.swift in Sources */,
+				0A892B692A71454F0051E9A7 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A892AFB2A711FF40051E9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A892AE72A711FEE0051E9A7 /* TasksApp */;
+			targetProxy = 0A892AFA2A711FF40051E9A7 /* PBXContainerItemProxy */;
+		};
+		0A892B052A711FF40051E9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A892AE72A711FEE0051E9A7 /* TasksApp */;
+			targetProxy = 0A892B042A711FF40051E9A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A892B0B2A711FF40051E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A892B0C2A711FF40051E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0A892B0E2A711FF40051E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TasksApp/TasksApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TasksApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasksApp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parasbakrania.TasksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A892B0F2A711FF40051E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TasksApp/TasksApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TasksApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasksApp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parasbakrania.TasksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A892B112A711FF40051E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parasbakrania.TasksAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasksApp";
+			};
+			name = Debug;
+		};
+		0A892B122A711FF40051E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parasbakrania.TasksAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasksApp";
+			};
+			name = Release;
+		};
+		0A892B142A711FF40051E9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parasbakrania.TasksAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasksApp;
+			};
+			name = Debug;
+		};
+		0A892B152A711FF40051E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parasbakrania.TasksAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasksApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A892AE32A711FEE0051E9A7 /* Build configuration list for PBXProject "TasksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A892B0B2A711FF40051E9A7 /* Debug */,
+				0A892B0C2A711FF40051E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A892B0D2A711FF40051E9A7 /* Build configuration list for PBXNativeTarget "TasksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A892B0E2A711FF40051E9A7 /* Debug */,
+				0A892B0F2A711FF40051E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A892B102A711FF40051E9A7 /* Build configuration list for PBXNativeTarget "TasksAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A892B112A711FF40051E9A7 /* Debug */,
+				0A892B122A711FF40051E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A892B132A711FF40051E9A7 /* Build configuration list for PBXNativeTarget "TasksAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A892B142A711FF40051E9A7 /* Debug */,
+				0A892B152A711FF40051E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A892AE02A711FEE0051E9A7 /* Project object */;
+}
